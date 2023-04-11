@@ -9,4 +9,21 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "navarasu/onedark.nvim",
+  {
+    "github/copilot.vim",
+    event = "InsertEnter",
+  },
+  {
+    "jackMort/ChatGPT.nvim",
+    event = "VeryLazy",
+    config = function()
+      require("chatgpt").setup()
+    end,
+    dependencies = {
+      "MunifTanjim/nui.nvim",
+      "nvim-lua/plenary.nvim",
+      "nvim-telescope/telescope.nvim"
+    }
+  }
 }

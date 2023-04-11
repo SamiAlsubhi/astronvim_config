@@ -55,7 +55,7 @@ return {
     ["J"] = { ":move '>+1<CR>gv-gv" },
     ["jk"] = { "<ESC>" }
   },
-  i = {
-    ["<C-l>"] = { 'copilot#Accept("<CR>")', silent = true, expr = true },
-  }
+  -- i = {
+  --   ["<C-l>"] = { 'copilot#Accept("<CR>")', silent = true, expr = true },
+  -- }
 }

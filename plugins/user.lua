@@ -10,10 +10,10 @@ return {
   --   end,
   -- },
   "navarasu/onedark.nvim",
-  {
-    "github/copilot.vim",
-    event = "InsertEnter",
-  },
+  -- {
+  --   "github/copilot.vim",
+  --   event = "InsertEnter",
+  -- },
   {
     "jackMort/ChatGPT.nvim",
     event = "VeryLazy",
